@@ -1,3 +1,5 @@
+print("Enter two numbers to be added!")
 number1 = input ("First Number: ")
 number2 = input ("Second Number: ")
-print(int(number1)+int(number2))
+answer = int(number1) + int(number2)
+print(str(number1) + " + " + str(number2) + " = " + str(answer))
